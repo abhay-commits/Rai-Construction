@@ -1,0 +1,141 @@
+/* .Message-container{
+  height: 650px;
+  width: 100%;
+  background-color:#E6EBF1;
+}
+.Message-top{
+  text-align: center;
+}
+.Message-h{
+  font-size: 50px;
+  font-weight: 600;
+}
+.Message-p{
+  text-align: center;
+  width: 1100px;
+  margin-left: 12%;
+}
+.Message-p1{
+  margin-top: 2%;
+}
+.Message-p3{
+  margin-top: 2%;
+}
+.Message-p4{
+  margin-top: 2%;
+}
+.Message-p2{
+  margin-top: 2%;
+}
+.Message-p5{
+  margin-top: 5%;
+  font-size: 17px;
+  font-weight: 500;
+}
+.Message-p6{
+  margin-top: 1%;
+  color: #f23232;
+  font-size: 19px;
+  font-weight: 600;
+}
+.Message-p7{
+  color: #f23232;
+} */
+
+
+.Message-container {
+  width: 100%;
+  background-color: #E6EBF1;
+  padding: 50px 0;
+}
+
+/* Top Heading */
+.Message-top {
+  text-align: center;
+}
+
+.Message-h {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* Paragraph Section */
+.Message-p {
+  text-align: center;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.Message-p1,
+.Message-p2,
+.Message-p3,
+.Message-p4,
+.Message-p5 {
+  margin-top: 2%;
+}
+
+.Message-p5 {
+  margin-top: 5%;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.Message-p6 {
+  margin-top: 1%;
+  color: #f23232;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.Message-p7 {
+  color: #f23232;
+}
+
+
+
+/* ---------------------------- */
+/*         RESPONSIVE           */
+/* ---------------------------- */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .Message-h {
+    font-size: 40px;
+  }
+
+  .Message-p {
+    width: 90%;
+  }
+}
+
+/* Mobile Landscape & Small Tablets */
+@media (max-width: 768px) {
+  .Message-h {
+    font-size: 32px;
+  }
+
+  .Message-p {
+    width: 90%;
+    font-size: 15px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .Message-h {
+    font-size: 26px;
+  }
+
+  .Message-p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .Message-p6 {
+    font-size: 17px;
+  }
+
+  .Message-p7 {
+    font-size: 15px;
+  }
+}

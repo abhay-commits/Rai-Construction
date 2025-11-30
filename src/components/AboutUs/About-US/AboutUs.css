@@ -1,0 +1,47 @@
+
+.about-us {
+  background-color: #222635;
+  color: #fff;
+  padding: 100px 20px;
+  margin-top: 5%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hero {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-hero h1 {
+  font-size:55px;
+  font-weight: bold;
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .about-us {
+    padding: 60px 30px;
+    margin-top: 10%;
+  }
+
+  .about-hero {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us {
+    padding: 80px 10px;
+  }
+
+  .about-hero h1 {
+    font-size: 40px;
+  }
+}
+
+

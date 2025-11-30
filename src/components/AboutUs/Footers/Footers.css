@@ -1,0 +1,133 @@
+.contact-container {
+  background-color: #1c2533;
+  padding: 60px 6%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  color: white;
+}
+
+/* LOGO */
+.footer-logo {
+  height: 40px;
+  margin-bottom: 1px;
+}
+
+.footer-title {
+  color: #f05454;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  opacity: 0.8;
+  font-size: 15px;
+  margin-bottom: 15px;
+  max-width: 280px;
+}
+
+.footer-item {
+  margin: 8px 0;
+  opacity: 0.9;
+  font-size: 15px;
+}
+
+.icon {
+  color: #f05454;
+  margin-right: 10px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin: 10px 0;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.footer-list li:hover {
+  opacity: 1;
+  color: #f05454;
+}
+
+.footer-socials {
+  margin: 15px 0;
+}
+
+.footer-socials i {
+  font-size: 20px;
+  margin-right: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: #f05454;
+}
+
+.footer-socials i:hover {
+  color: white;
+}
+
+.footer-form {
+  background-color: #2f3440;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.footer-label {
+  color: #f05454;
+  font-size: 14px;
+}
+
+.footer-input {
+  width: 100%;
+  background-color: #fafbfb;
+  border: 1px solid #858f9e;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.Contact-footers{
+  grid-column: span 4;
+  font-size: 14px;
+  opacity: .8;
+  width: 100%;
+  background-color: #d63c3c;
+}
+
+.footer-btn {
+  width: 100%;
+  margin-top: 12px;
+  background-color: #f05454;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.footer-btn:hover {
+  background-color: #d63c3c;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+  .contact-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+}

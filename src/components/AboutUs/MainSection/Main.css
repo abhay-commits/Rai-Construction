@@ -1,0 +1,176 @@
+
+.Main-top {
+  width: 100%;
+  background-color: #E6EBF1;
+  padding: 60px 0;
+}
+
+/* Heading Section */
+.Main-main {
+  text-align: center;
+}
+
+.main-h1 {
+  font-size: 50px;
+}
+
+.main-p {
+  font-size: 17px;
+  width: 800px;
+  margin: 1% auto 0 auto;
+}
+
+/* Cards */
+.card-containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.card-mains {
+  height: 210px;
+  width: 430px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  background-color: #fff;
+  border-radius: 15px;
+  opacity: 0.85;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.card-mains:hover {
+  transform: scale(1.03);
+}
+
+.card-mains .icon-div {
+  display: block;
+  border-radius: 30px;
+}
+
+.icon-div {
+  margin-top: 5%;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(249, 231, 231);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.icon-div:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(254, 11, 11, 0.4);
+}
+
+.card-icon {
+  margin-top: 26%;
+  font-size: 30px;
+}
+
+.card-para {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5%;
+  margin-top: 7%;
+  line-height: 1px;
+}
+
+.card-para:hover {
+  color: #f25252;
+}
+
+.Card-pa {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Button */
+.card-btns {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #f25252;
+  margin: 3% auto 0 auto;
+  display: block;
+  transition: 0.6s;
+}
+
+.card-btns:hover {
+  background-color: black;
+}
+
+
+@media (max-width: 1024px) {
+  .main-p {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-h1 {
+    font-size: 40px;
+  }
+
+  .main-p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .card-mains {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Main-top {
+    padding: 40px 10px;
+  }
+
+  .main-h1 {
+    font-size: 32px;
+  }
+
+  .main-p {
+    width: 95%;
+    font-size: 15px;
+  }
+
+  .card-mains {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .Card-pa {
+    width: 95%;
+    margin-top: 3%;
+  }
+  .icon-div{
+    margin-bottom: 4%;
+  }
+
+  .card-btns {
+    width: 70%;
+  }
+}
+@media (max-width: 400px) {
+  .main-h1 {
+    font-size: 28px;
+  }
+
+  .card-icon {
+    font-size: 25px;
+  }
+
+  .card-para {
+    font-size: 20px;
+    display: inline;
+  }
+}

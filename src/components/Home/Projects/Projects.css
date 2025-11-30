@@ -1,0 +1,150 @@
+
+.projects-section {
+  padding: 60px 20px;
+  background: #ebe8e8;
+}
+.projects-header {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.projects-header h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222;
+}
+
+.highlight {
+  color: #e33;
+  font-weight: 800;
+}
+
+.projects-header p {
+  font-size: 18px;
+  margin-top: 12px;
+  opacity: 0.85;
+}
+
+.projects-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 2rem;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+.project-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.project-content p {
+  font-size: 16px;
+  opacity: 0.85;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  font-weight: 700;
+  color: #d33;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.read-more:hover {
+  margin-left: 5px;
+}
+
+.view-all-btn {
+  display: inline-block;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 4%;
+  padding: 14px 35px;
+  background: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.view-all-btn:hover {
+  background: #333;
+  background-color: #F25252;
+}
+
+
+
+@media (max-width: 1024px) {
+  .projects-header h1 {
+    font-size: 36px;
+  }
+  .projects-header p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-header h1 {
+    font-size: 32px;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+  .project-card {
+    width: 100%;
+    margin-bottom: 8%;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-header h1 {
+    font-size: 28px;
+  }
+  .projects-header p {
+    font-size: 15px;
+  }
+  .project-card img {
+    height: 200px;
+  }
+  .project-content h3 {
+    font-size: 20px;
+  }
+  .project-content p {
+    font-size: 14px;
+  }
+
+  .view-all-btn {
+    font-size: 16px;
+    width: 250px;
+    margin-left: 13%;
+  }
+}

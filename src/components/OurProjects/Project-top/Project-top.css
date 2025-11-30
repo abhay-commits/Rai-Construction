@@ -1,0 +1,418 @@
+
+.Projects-main {
+  width: 100%;
+  margin-top: 4%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 50px;
+  align-items: center;
+}
+.Projectimg-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Projects-img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  aspect-ratio: 16/10;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+.Projects-img:hover {
+  opacity: 0.85;
+}
+
+.Projects-section {
+  width: 100%;
+  max-width: 620px;
+}
+
+.Projects-h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.section-span {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.Projects-icon {
+  margin-left: 0;
+}
+
+.color {
+  color: #f25252;
+}
+
+.Projects-p1 {
+  margin-top: 18px;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.Projects-p2 {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.h3-Projects {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.span {
+  padding: 6px 14px;
+  background: #e4e4e4;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+.button {
+  padding: 12px 16px;
+  margin-top: 22px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.9;
+  border: none;
+}
+.button:hover{
+  background-color: #e04343;
+  color: #fff;
+}
+
+
+@media (max-width: 1024px) {
+  .Projects-main {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .Projects-img {
+    max-width: 100%;
+    aspect-ratio: 16/10;
+  }
+
+  .Projects-section {
+    max-width: 100%;
+  }
+
+  .Projects-h1 {
+    font-size: 32px;
+  }
+
+  .Projects-p1,
+  .Projects-p2 {
+    font-size: 16px;
+  }
+}
+
+/* MOBILE LARGE – matches live site spacing */
+@media (max-width: 768px) {
+  .Projects-main {
+    gap: 40px;
+    margin-top: 10%;
+    padding: 0 15px;
+  }
+
+  .Projects-img {
+    height: auto;
+    aspect-ratio: 16/11;
+  }
+
+  .Projects-h1 {
+    font-size: 28px;
+  }
+
+  .section-span {
+    gap: 12px;
+  }
+
+  .Projects-p1,
+  .Projects-p2 {
+    font-size: 15px;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* SMALL MOBILE – keeps same layout as your live website */
+@media (max-width: 480px) {
+
+  /* Main layout tighter and more balanced */
+  .Projects-main {
+    gap: 28px;
+    margin-top: 8%;
+    padding: 0 12px;
+  }
+
+  /* Image: optimized for small screens */
+  .Projects-img {
+    width: 100%;
+    aspect-ratio: 4/3; /* safer for small phones */
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+
+  /* Headings more compact but bold */
+  .Projects-h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 4px;
+  }
+
+  /* Improve readability */
+  .Projects-p1,
+  .Projects-p2 {
+    font-size: 14px;
+    line-height: 1.55;
+    margin-top: 10px;
+    opacity: 0.9;
+  }
+
+  /* Title spacer blocks */
+  .Section {
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  /* Tag chips more compact + rounded */
+  .span {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 12px;
+    background-color: #efefef;
+  }
+
+  /* CTA button more finger-friendly */
+  .button {
+    padding: 12px 16px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  /* Improve icon spacing */
+  .section-span {
+    gap: 10px;
+  }
+
+  /* Prevent text from touching edges */
+  .Projects-section {
+    padding: 0 4px;
+  }
+}
+/* ...existing code... */
+
+/* ABOUT US HEADER */
+.About-us {
+  width: 100%;
+  padding: 40px 0 20px 0;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Aboutus-h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* CTA SECTION */
+.Content-div {
+  width: 100%;
+  background: #f8f8f8;
+  margin: 60px 0 0 0;
+  padding: 40px 0 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 18px;
+}
+.Content-h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.Content-p {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+  text-align: center;
+  max-width: 600px;
+}
+.Contant-p1 {
+  margin: 8px 10px 0 10px;
+  display: inline-block;
+}
+.Contant-a, .Contant-b {
+  color: #fff;
+  background: #222;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 8px;
+  transition: background 0.2s;
+}
+.Contant-b {
+  background: #f25252;
+}
+.Contant-a:hover, .Contant-b:hover {
+  background: #111;
+  color: #fff;
+}
+
+/* ...existing code... */
+
+/* TABLETS */
+@media (max-width: 1024px) {
+  .Aboutus-h1 {
+    font-size: 2rem;
+  }
+  .Content-h1 {
+    font-size: 1.5rem;
+  }
+  .Content-div {
+    padding: 32px 0 24px 0;
+  }
+}
+
+/* MOBILE LARGE */
+@media (max-width: 768px) {
+  .About-us {
+    padding: 28px 0 12px 0;
+  }
+  .Aboutus-h1 {
+    font-size: 1.4rem;
+  }
+  .Content-div {
+    padding: 24px 0 16px 0;
+    margin: 36px 0 0 0;
+  }
+  .Content-h1 {
+    font-size: 1.1rem;
+  }
+  .Content-p {
+    font-size: 0.98rem;
+    padding: 0 8px;
+  }
+  .Contant-a, .Contant-b {
+    font-size: 0.98rem;
+    padding: 8px 14px;
+    margin-bottom: 6px;
+  }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+  .About-us {
+    padding: 20px 0 12px 0;
+    text-align: center;
+  }
+
+  .Aboutus-h1 {
+    font-size: 1.3rem;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .Content-div {
+    padding: 16px 12px;
+    margin: 24px 0 0 0;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95); /* slightly transparent white to feel light */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .Content-h1 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .Content-p {
+    font-size: 0.95rem;
+    padding: 0 4px;
+    line-height: 1.4;
+    color: #333;
+  }
+
+  .Contant-a,
+  .Contant-b {
+    display: inline-block;
+    font-size: 0.95rem;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .Contant-a {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .Contant-a:hover {
+    background-color: #333;
+  }
+
+  .Contant-b {
+    background-color: #f25252;
+    color: white;
+  }
+
+  .Contant-b:hover {
+    background-color: #e04343;
+  }
+
+  /* Ensure spacing between the two links/buttons */
+  .Contant-a + .Contant-b,
+  .Contant-b + .Contant-a {
+    margin-left: 8px;
+  }
+
+  /* If you want them to stack on very small screen: */
+  @media (max-width: 360px) {
+    .Contant-a,
+    .Contant-b {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      margin-left: 0 !important;
+    }
+  }
+}
+
+
+/* ...existing code... */

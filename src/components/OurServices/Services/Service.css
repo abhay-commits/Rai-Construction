@@ -1,0 +1,170 @@
+
+
+.Service-tops {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Service-img {
+  height: 320px;
+  width: 650px;
+  border-radius: 10px;
+  margin-top: 8%;
+  object-fit: cover;
+}
+
+.Service-mains {
+  margin-top: 10%;
+}
+
+.Service-main2 {
+  margin-top: 5%;
+  max-width: 650px;
+}
+
+.UL {
+  width: 600px;
+  margin-top: 2%;
+  list-style-type: none;
+}
+
+.h1-service {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.p-service {
+  margin-top: 2%;
+  font-size: 17px;
+  line-height: 30px;
+  width: 600px;
+}
+
+.h2-service {
+  font-weight: 500;
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.Service-list {
+  margin-top: 1%;
+}
+
+.service-icon {
+  color: #f25252;
+  margin-right: 10px;
+}
+
+.Key {
+  width: 650px;
+  background-color: rgb(232, 230, 230);
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-top: 3%;
+}
+
+.h4-service {
+  color: #f25252;
+  font-weight: 500;
+}
+
+.p1-service {
+  line-height: 25px;
+  margin-top: 1%;
+}
+
+.Button-btn {
+  border-radius: 10px;
+  padding: 12px 10px;
+  width: 150px;
+  margin-top: 5%;
+  background-color: #f25252;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.Button-btn:hover{
+  background-color: rgb(65, 61, 61);
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .Service-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .UL,
+  .p-service,
+  .Key {
+    width: 100%;
+  }
+
+  .Service-main2 {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .h1-service {
+    font-size: 32px;
+  }
+
+  .p-service {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .Service-img {
+    width: 100%;
+    height: 260px;
+  }
+
+  .Key {
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  .UL {
+    width: 100%;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .h1-service {
+    font-size: 26px;
+  }
+
+  .p-service {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .Service-img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .UL {
+    padding-left: 10px;
+  }
+
+  .Service-list {
+    font-size: 14px;
+  }
+
+  .Key {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .Button-btn {
+    width: 130px;
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+}

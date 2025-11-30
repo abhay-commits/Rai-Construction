@@ -1,0 +1,175 @@
+.testimonials-d {
+  margin: 80px auto;
+  padding: 0 40px;
+  position: relative;
+  max-width: 900px;
+}
+.Project-h{
+  font-size: 50px;
+  margin-left: 23%;
+  margin-top: 4%;
+  opacity: .8;
+}
+
+.next-btn,
+.back-btn {
+  position: absolute;
+  top: 45%;
+  padding: 12px;
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: white;
+  color: #2a3a50;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.next-btn {
+  right: -20px;
+}
+
+.back-btn {
+  left: -20px;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  width: 400%;
+  transition: 0.5s ease;
+}
+
+.slider ul li {
+  list-style: none;
+  width: 25%;
+  padding: 20px;
+}
+
+.slide {
+  box-shadow: 0 0 25px rgba(0,0,0,0.15);
+  padding: 35px;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  color: #333;
+}
+
+.quote {
+  font-size: 50px;
+  color: #cc3b3b;
+}
+
+.div-ul i {
+  color: rgb(239, 82, 82);
+  margin: 2px;
+  margin-top: 2%;
+}
+.userinfo{
+  font-size: 19px;
+  margin-top: 3%;
+}
+.test-h3{
+  margin-top: 3%;
+  font-weight: 600;
+}
+.Para-p {
+  text-align: center;
+  max-width: 700px;
+  margin: 10px auto 0;
+  font-size: 18px;
+}
+.Test-ul{
+  list-style-type: none;
+}
+
+.Project-h1 {
+  margin-top: 60px;
+}
+
+.Test-div ul {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Project-h1 ul li {
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.h4 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.Working-span {
+  color: #d43c3c;
+  font-weight: 700;
+}
+
+
+@media (max-width: 992px) {
+  .slider ul li {
+    width: 50%;
+  }
+
+  .next-btn,
+  .back-btn {
+    top: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider ul {
+    width: 400%;
+  }
+
+  .slider ul li {
+    width: 100%;
+  }
+
+  .next-btn,
+  .back-btn {
+    top: 48%;
+    margin-right: 7%;
+    margin-left: 7%;
+    width: 50px;
+    padding: 8px;
+  }
+
+  .Para-p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .slide {
+    padding: 25px;
+  }
+
+  .Project-h1 ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .h4 {
+    font-size: 32px;
+  }
+
+  .slide p {
+    font-size: 15px;
+  }
+
+  .Project-h {
+    text-align: center;
+    font-size: 26px;
+    margin-left: 4%;
+  }
+}
+ 
